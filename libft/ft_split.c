@@ -90,14 +90,16 @@ char	**ft_split(char const *s, char c)
 
 // bir stringi belirli karakter kullanarak bölme işlemi yapar. (s bölünecek string, c ayırıcı)
 
-//#include <stdio.h>
-//int main
-//{
-//char **str = ft_split("Ezgi Deniz Cakir", ' ');
-//int i;
-//i = 0;
-//while(i < 3)
-//{
-//printf("%s\n", str[i]);
-//i++;
-//}
+// #include <stdio.h>
+
+//  int main()
+// {
+//  	char **str = ft_split(" Merhaba 42 Kocaeli",' ');
+//  	int i;
+//  	i = 0;
+//  	while(i < 3)
+//  	{
+//  	printf("%s\n",str[i]);
+// 	i++;
+//  	}
+// }
