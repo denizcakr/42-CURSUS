@@ -19,3 +19,5 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
+
+// fonksiyona girilen c parametre değerinde yer alan büyük harfi küçük harfe çevirir.
