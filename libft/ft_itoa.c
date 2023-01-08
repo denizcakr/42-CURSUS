@@ -55,3 +55,11 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
+
+// malloc ile hafızada yer ayırır ve integer olarak alınan değeri string'e çevirir.
+
+//#include <stdio.h>
+//int main
+//{
+//printf("%s", ft_itoa(-345));
+//}
