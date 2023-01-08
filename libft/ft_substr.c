@@ -41,3 +41,13 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 
 //s dizisinde start değeri ile başlayıp len değerine kadar bellekte yer açar ve
 //s dizisinden kopyalar.
+
+
+// #include <stdio.h>
+
+// int main()
+// {
+// 	char s[] = "Merhaba42Kocaeli";
+
+// 	printf("%s",ft_substr(s,7,9));
+// }
