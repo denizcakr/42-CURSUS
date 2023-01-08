@@ -25,3 +25,6 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
+
+// s parametresi ile gösterilen karakter dizisinde c parametresi ile gösterilen değerin son geçtiği yeri arar ve
+// bu bellek adresini gösteren bir işaretçi geri döndürür.
