@@ -94,7 +94,7 @@ char	**ft_split(char const *s, char c)
 
 //  int main()
 // {
-//  	char **str = ft_split(" Merhaba 42 Kocaeli",' ');
+//  	char **str = ft_split("Ezgi Deniz Cakir",' ');
 //  	int i;
 //  	i = 0;
 //  	while(i < 3)
