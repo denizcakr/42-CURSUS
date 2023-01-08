@@ -39,3 +39,13 @@ int	ft_atoi(const char *str)
 	}
 	return (s * d);
 }
+
+// str parametresi ile gösterilen karakter dizisini int bir değere çevirir.
+
+
+//#include <stdio.h>
+//int main()
+//{
+//char str[] = "  -345";
+//printf("%d", ft_atoi(str));
+//}
