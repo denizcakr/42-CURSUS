@@ -25,3 +25,6 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+
+// s1 parametresi ile gösterilen bellek bölgesinin n parametre değeri kadar ilk byte'ını,
+// s2 parametresi ile gösterilen bellek bölgesi ile karşılaştırır.
