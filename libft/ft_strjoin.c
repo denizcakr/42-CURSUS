@@ -37,3 +37,14 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	result[i] = '\0';
 	return (result);
 }
+
+// malloc ile hafızada yer ayırır ve çıktı olarak s1 ve s2 stringlerinin birleşmiş halini döndürür.
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	char s1[] = "ez";
+//	char s2[] = "cakir";
+//	printf("%s",(char *)ft_strjoin(s1,s2));
+//}
