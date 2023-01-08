@@ -87,3 +87,17 @@ char	**ft_split(char const *s, char c)
 	ft_split_words(res, s, c, word_ct);
 	return (res);
 }
+
+// bir stringi belirli karakter kullanarak bölme işlemi yapar. (s bölünecek string, c ayırıcı)
+
+//#include <stdio.h>
+//int main
+//{
+//char **str = ft_split("Ezgi Deniz Cakir", ' ');
+//int i;
+//i = 0;
+//while(i < 3)
+//{
+//printf("%s\n", str[i]);
+//i++;
+//}
