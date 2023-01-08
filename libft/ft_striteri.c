@@ -26,3 +26,19 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		}
 	}
 }
+
+//karakterin indeksini ilk arguman olarak gönderip, f fonksiyonunu s stringinin
+//bütün karakterlerine uygular. (s stringindeki her karakterin adresine tek tek f fonksiyonu uygulanır).
+
+// #include <stdio.h>
+
+// void	ft_42(unsigned int a, char *c)
+// {
+// 	*c = ft_toupper(*c);
+// }
+// int main()
+// {
+// 	char str[] = "Deniz";
+// 	ft_striteri(str, ft_42);
+// 	printf("%s", str);
+// }
