@@ -38,3 +38,6 @@ char	*ft_substr(const char *s, unsigned int start, size_t len)
 	}
 	return (str);
 }
+
+//s dizisinde start değeri ile başlayıp len değerine kadar bellekte yer açar ve
+//s dizisinden kopyalar.
