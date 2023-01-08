@@ -21,3 +21,6 @@ int	ft_strncmp(const char *s1, const char *s2, unsigned int n)
 		i++;
 	return (s1[i] - s2[i]);
 }
+
+// s1 parametresi ile gösterilen karakter dizisinin, n parametre değeri kadar ilk karakterini,
+// s2 parametresi ile gösterilen karakter dizisi ile karşılaştırır.
