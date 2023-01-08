@@ -31,3 +31,21 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+
+//s dizisinin her indeksine parametredeki fonksiyon uygulanır.
+
+// #include <stdio.h>
+
+// char	ft_42(unsigned int a,char c)
+// {
+// 	return(ft_toupper(c));
+// }
+
+// int main()
+// {
+// 	char s[] = "merhaba";
+// 	char *str;
+// 	str = ft_strmapi(s,ft_42);
+
+// 	printf("%s",str);
+// }
