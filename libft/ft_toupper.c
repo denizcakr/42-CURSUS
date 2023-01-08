@@ -16,3 +16,5 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
+
+// fonksiyona girilen c parametre değerinde yer alan küçük harfi büyük harfe çevirir.
