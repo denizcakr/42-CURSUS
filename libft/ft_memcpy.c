@@ -26,3 +26,6 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+//src parametresi ile gösterilen bellekteki karakteri, n parametre değeri kadar uzunlukta,
+//dst parametresindeki bellek bölgesine kopyalar.
