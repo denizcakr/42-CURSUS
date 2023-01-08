@@ -26,3 +26,6 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (0);
 }
+
+// s parametresi ile gösterilen karakter dizisinde, c parametresi ile gösterilen değerin
+// ilk geçtiği yeri arar ve bu bellek adresini gösteren bir işaretçi geri döndürür.
