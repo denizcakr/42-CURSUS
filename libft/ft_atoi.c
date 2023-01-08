@@ -44,8 +44,9 @@ int	ft_atoi(const char *str)
 
 
 //#include <stdio.h>
+
 //int main()
 //{
-//char str[] = "  -345";
-//printf("%d", ft_atoi(str));
+//	char str[] = "  -345";
+//	printf("%d", ft_atoi(str));
 //}
