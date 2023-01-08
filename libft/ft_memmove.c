@@ -25,3 +25,6 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+//src parametresi ile gösterilen bellek bölgesindeki karakterleri,
+// n parametre değeri kadar uzunlukta, dst parametresindeki bellek bölgesine kopyalar.
