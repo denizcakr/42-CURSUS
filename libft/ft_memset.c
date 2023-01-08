@@ -24,3 +24,6 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+//c parametresi ile gösterilen bellek bölgesindeki karakteri (unsigned char),
+//b parametresindeki bellek bölgesinin ilk len parametre değeri kadar byte'ına kopyalar.
